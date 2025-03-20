@@ -54,8 +54,15 @@ ____
 docker build -t tarea2-app .
 ```
 
+<div align="center">
+<img src="./images/build.png" width=75% height=65%>
+</div>
 
+Si se tiene el sistema operativo de Windows y se tiene Docker Desktop, se puede observar de forma gráfica las imagenes que están creadas:
 
+<div align="center">
+<img src="./images/intimage.png" width=75% height=65%>
+</div>
 
 #### **Construcción de contenedor basado en la imagen**
 
@@ -63,3 +70,31 @@ docker build -t tarea2-app .
 ```
 docker run -d -p 80:80 tarea2-app
 ```
+
+Flags:
+-d: (Para dejarlo en segundo plano)
+-p: (Mapea un puerto del host a un puerto dentro del contenedor.)
+
+<div align="center">
+<img src="./images/run.png" width=95% height=65%>
+</div>
+
+De igual manera se puede observar en Docker Desktop; la inicialización de los contenedores:
+
+<div align="center">
+<img src="./images/containers.png" width=95% height=65%>
+</div>
+
+**Muestra de pantalla:**
+
+Al ingresar en localhost:80
+
+<div align="center">
+<img src="./images/react1.png" width=95% height=65%>
+</div>
+
+Al presionar el botón, se podrán ver mis datos personales.
+
+<div align="center">
+<img src="./images/react2.png" width=95% height=65%>
+</div>
